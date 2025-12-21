@@ -71,7 +71,7 @@ paginate: 10
 
 # IMPORTANT: Since your repo is likely named 'blog', 
 # this ensures links point to purushyb.github.io/blog/
-baseurl: "/blog"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
