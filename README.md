@@ -1,43 +1,60 @@
-# Chirpy Starter
+# 👨‍💻 Purushyb's Personal Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[![Pages build deployment](https://github.com/purushyb/purushyb.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/purushyb/purushyb.github.io/actions/workflows/pages/pages-build-deployment)
+![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Welcome to the source code of my personal blog. This repository hosts my articles, tutorials, and notes on software development.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+### 🚀 Live Demo
+**Visit the blog here:** [https://purushyb.github.io/](https://purushyb.github.io/)
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+---
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## 📝 About The Blog
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+This is a static site where I document my learning journey and share knowledge with the developer community.
 
-## Usage
+**Key Topics:**
+* **Android Development:** Tips, tricks, and best practices.
+* **Data Structures & Algorithms (DSA):** Solutions and visualizations in Kotlin.
+* **Kotlin:** Deep dives into language features.
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 🛠 Tech Stack
 
-## Contributing
+This blog is built using **Jekyll** and hosted on **GitHub Pages**.
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+* **Theme:** [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - A minimal, responsive, and feature-rich Jekyll theme.
+* **Language:** Markdown & Liquid.
+* **Comments:** Giscus (Powered by GitHub Discussions).
+* **Analytics:** Google Analytics.
 
-## License
+---
 
-This work is published under [MIT][mit] License.
+## 💻 Local Development
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+If you want to run this repo locally to preview drafts:
+
+1.  **Clone the repo:**
+    ```bash
+    git clone [https://github.com/purushyb/purushyb.github.io.git](https://github.com/purushyb/purushyb.github.io.git)
+    cd purushyb.github.io
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    bundle install
+    ```
+
+3.  **Run the server:**
+    ```bash
+    bundle exec jekyll serve
+    ```
+
+4.  Open your browser and go to `http://127.0.0.1:4000`.
+
+---
+
+## 📄 License
+
+This project is open source. Feel free to explore the code to see how the site is structured!
