@@ -2,7 +2,7 @@
 title: "Binary Search: From Basics to Visualization"
 description: "Mastering Binary Search in Kotlin: From Basics to Visualization"
 date: 2025-12-31 12:00:00 +1100
-categories: [Algorithms, Binary Search]
+categories: [Algorithms, binary search]
 tags: [dsa, binary search, algorithms, tutorial, kotlin]
 math: true
 ---

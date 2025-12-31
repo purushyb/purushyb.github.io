@@ -1,6 +1,5 @@
 # 👨‍💻 Purushyb's Personal Blog
 
-[![Pages build deployment](https://github.com/purushyb/purushyb.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/purushyb/purushyb.github.io/actions/workflows/pages/pages-build-deployment)
 ![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 
