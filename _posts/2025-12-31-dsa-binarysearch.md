@@ -7,6 +7,7 @@ tags: [dsa, binary search, algorithms, tutorial, kotlin]
 math: true
 ---
 
+
 Binary Search is one of the first efficient algorithms developers learn, but implementing it cleanly—and understanding exactly how it moves—is a vital skill. 
 
 In this post, we'll explore Binary Search in Kotlin. We will look at a standard integer implementation, a "real-world" object search (simulating a database record lookup), and finally, a custom visualizer to see the algorithm in action.
@@ -159,3 +160,7 @@ Found at index 8!
 - Space Complexity: $O(1)$ (Iterative).
 
 Binary search is the foundation for many complex algorithms. Visualizing the pointers L, R, and M is the best way to debug "off-by-one" errors which are common in interview settings.
+
+## Source Code
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin).
+{: .prompt-tip }
