@@ -139,5 +139,5 @@ Merge Sort guarantees $O(n \log n)$ even in the worst case, but it requires $O(n
 QuickSort is a must-know algorithm for technical interviews. The key to mastering it is understanding the partition function. Once you understand how the pivot moves elements around it, the recursive structure becomes easy to visualize.
 
 ## Source Code
-> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin).
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/DSAQuickSort.kt).
 {: .prompt-tip }

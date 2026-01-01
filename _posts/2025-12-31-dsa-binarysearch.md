@@ -162,5 +162,5 @@ Found at index 8!
 Binary search is the foundation for many complex algorithms. Visualizing the pointers L, R, and M is the best way to debug "off-by-one" errors which are common in interview settings.
 
 ## Source Code
-> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin).
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/DSABinarySearch.kt).
 {: .prompt-tip }

@@ -139,5 +139,5 @@ fun mergeDataBaseRecords(arr: Array<DataBaseRecord>, low: Int, mid: Int, high: I
 Merge Sort is the go-to algorithm when stability is required or when the data is too large to fit into memory (External Sorting), as its predictable memory access patterns are excellent for handling linked lists or disk-based storage.
 
 ## Source Code
-> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin).
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/DSAMergeSort.kt).
 {: .prompt-tip }
