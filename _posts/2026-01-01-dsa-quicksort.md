@@ -2,7 +2,7 @@
 title: "QuickSort: The Divide and Conquer King"
 description: "Mastering QuickSort in Kotlin: The Divide and Conquer King"
 date: 2026-01-01
-categories: [Algorithms, quick sort]
+categories: [Algorithms, Quick Sort]
 tags: [dsa, sorting, kotlin, quicksort, algorithms]
 math: true
 ---

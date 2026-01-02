@@ -2,7 +2,7 @@
 title: "Two Pointers: Reversing and De-duplicating Arrays"
 description: "The Power of Two Pointers: Reversing and De-duplicating Arrays"
 date: 2026-01-02
-categories: [Algorithmsm two pointer manipulation]
+categories: [Algorithms, Two Pointer Manipulation]
 tags: [dsa, kotlin, two-pointers, arrays, interview-prep]
 math: true
 ---

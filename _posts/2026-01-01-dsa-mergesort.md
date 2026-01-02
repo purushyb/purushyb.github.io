@@ -2,7 +2,7 @@
 title: "Merge Sort: The Stable Divide and Conquer Algorithm"
 description: "Mastering Merge Sort in Kotlin: The Stable Divide and Conquer Algorithm"
 date: 2026-01-01
-categories: [Algorithms]
+categories: [Algorithms, Merge Sort]
 tags: [dsa, sorting, kotlin, mergesort, algorithms]
 math: true
 ---
