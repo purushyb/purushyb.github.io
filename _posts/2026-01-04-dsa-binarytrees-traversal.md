@@ -1,7 +1,7 @@
 ---
 title: "Binary Tree : DFS and BFS Explained"
 description: "Binary Tree Traversals in Kotlin: DFS and BFS Explained"
-date: 2026-01-04
+date: 2026-01-05
 categories: [Algorithms, Binary tree traversals]
 tags: [dsa, kotlin, binary-tree, recursion, bfs, dfs]
 math: true
