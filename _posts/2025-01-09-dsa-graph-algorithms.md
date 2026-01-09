@@ -1,9 +1,9 @@
 ---
-title: "Graph Theory in Kotlin: BFS, DFS, and Dijkstra's Algorithm"
+title: "Graph Theory: BFS, DFS, and Dijkstra's Algorithm"
 date: 2026-01-09
 description: "A comprehensive guide to traversing graphs and finding the shortest path between nodes using Kotlin."
 categories: [Algorithms, graphs]
-tags: [dsa, kotlin, graphs, bfs, dfs, dijkstra]
+tags: [dsa, kotlin, graphs, bfs, dfs, dijkstra, cycle-detection]
 math: true
 ---
 
@@ -72,7 +72,46 @@ fun bfs(adj: Array<Array<Int>>): List<Int> {
 }
 ```
 
-## 2. Dijkstra's Shortest Path Algorithm
+## 2. Cycle Detection in Directed Graphs
+
+Detecting a cycle is critical in many applications, like checking for deadlocks in an OS or resolving dependencies in a build system. We use DFS with a Recursion Stack to track nodes in the current path.
+
+```kotlin
+fun isCycleExists(adj: Array<Array<Int>>): Boolean {
+    val visitedArray = Array(adj.size) { false }
+    val recurArray = Array(adj.size) { false }
+
+    for (i in 0 until adj.size) {
+        if (!visitedArray[i] && dfsCycleDetection(adj, visitedArray, recurArray, i)) {
+            return true
+        }
+    }
+    return false
+}
+
+fun dfsCycleDetection(
+    adj: Array<Array<Int>>,
+    visited: Array<Boolean>,
+    recurStack: Array<Boolean>,
+    currElement: Int
+): Boolean {
+    if (recurStack[currElement]) return true
+    if (visited[currElement]) return false
+
+    visited[currElement] = true
+    recurStack[currElement] = true
+
+    for (neighbor in adj[currElement]) {
+        if (dfsCycleDetection(adj, visited, recurStack, neighbor)) return true
+    }
+
+    // Backtrack: remove from current path
+    recurStack[currElement] = false
+    return false
+}
+```
+
+## 3. Dijkstra's Shortest Path Algorithm
 
 Dijkstra's algorithm finds the shortest path from a starting node to all other nodes in a weighted graph. It uses a Priority Queue to always expand the node with the current smallest known distance.
 
@@ -115,7 +154,7 @@ fun dijkstraShortestPath(adj: Array<Array<Array<Int>>>, startNode: Int): Array<I
 | -- | -- | -- | -- |
 | DFS | Stack (Recursion) | _O(V + E)_ | Topology, Pathfinding |
 | DFS | Queue | _O(V + E)_ | Shortest path (Unweighted) |
-| Dijkstra | Priority Queue | _O(E \log V)_ | Shortest path (Weighted) |
+| Dijkstra | Priority Queue | _O(E log V)_ | Shortest path (Weighted) |
 
 Note: _V_ is the number of vertices, and $E$ is the number of edges.
 
