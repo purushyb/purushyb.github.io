@@ -20,7 +20,7 @@ To visit nodes in a graph, we primarily use two strategies: **Depth-First Search
 ### Depth-First Search (DFS)
 DFS explores as far as possible along each branch before backtracking. It is naturally implemented using **recursion** (which uses the call stack).
 
-```text
+```kotlin
 fun dfs(adjList: Array<Array<Int>>): List<Int> {
     val result = mutableListOf<Int>()
     dfsRecursion(adjList, mutableMapOf<Int, Boolean>(), result, 0)
