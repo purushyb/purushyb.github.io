@@ -2,7 +2,7 @@
 title: "Dynamic Programming: Optimizing Recursion"
 date: 2026-01-13
 description: "A practical guide to Dynamic Programming (DP), covering Memoization (Top-Down) and Tabulation (Bottom-Up) for Fibonacci, Knapsack, and LCS."
-categories: [Algorithms]
+categories: [General Algorithms, Dynamic Programming]
 tags: [dsa, kotlin, dynamic-programming, dp, memoization, algorithms]
 math: true
 ---

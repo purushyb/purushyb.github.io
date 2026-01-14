@@ -2,7 +2,7 @@
 title: "Disjoint Set Union (DSU) in Kotlin: Mastering Union-Find"
 date: 2026-01-11
 description: "A guide to implementing the Disjoint Set Union (DSU) data structure with Path Compression and Union by Rank optimizations."
-categories: [Data Structures]
+categories: [Algorithms, Disjoint Set Union]
 tags: [dsa, kotlin, dsu, union-find, graph, algorithms]
 math: true
 ---
