@@ -125,5 +125,5 @@ _Where $E$ is the number of edges and $V$ is the number of vertices._
 Kruskal's Algorithm is elegant because it makes the "greedy" choice (always picking the cheapest available edge) and proves that this choice leads to the globally optimal solution. It is the perfect showcase for the power of the Disjoint Set Union data structure.
 
 ## Source Code
-> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/GeneralTechniquesGreedyAlgorithms.ktt).
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/GeneralTechniquesGreedyAlgorithms.kt).
 {: .prompt-tip }
