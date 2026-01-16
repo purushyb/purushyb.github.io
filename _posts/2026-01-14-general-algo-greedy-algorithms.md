@@ -35,7 +35,7 @@ We represent the graph as a list of edges, where each edge is `[node1, node2, we
 ### Step 1: Sorting and Iterating
 We sort the edges based on weight. Then, we use the `find` operation to check if the two nodes of the current edge share the same parent. If they have different parents, we `union` them and add the weight to our total cost.
 
-```text
+```kotlin
 fun kruskalsMinimumSpanningTree(edges: Array<Array<Int>>, noOfVertices: Int): Int {
     // 1. Initialize DSU arrays
     val parents = Array<Int>(noOfVertices) { it }

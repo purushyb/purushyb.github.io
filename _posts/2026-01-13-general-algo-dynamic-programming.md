@@ -24,7 +24,7 @@ There are two main ways to implement DP:
 ### Top-Down (Memoization)
 We pass a `table` array to store results. Before computing `fib(n)`, we check if `table[n]` already has a value.
 
-```text
+```kotlin
 // Top-Down: Recursion + Caching
 fun fibDPRecur(n: Int, table: Array<Int?>): Int {
     // 1. Table Lookup (Memoization Check)

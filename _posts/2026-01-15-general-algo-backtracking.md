@@ -26,7 +26,7 @@ A standard Sudoku puzzle consists of a $9 \times 9$ grid. The objective is to fi
 
 
 
-```text
+```kotlin
 fun sudokuSolverRecur(matrix: Array<Array<Int>>, row: Int, column: Int): Boolean {
     var currRow = row
     var currColumn = column
