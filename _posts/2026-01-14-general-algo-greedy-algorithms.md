@@ -112,7 +112,7 @@ Execution:
 
 ## Complexity Analysis
 
-| Operation | Naive Implementation |
+| Step | Complexity |
 | --- | --- |
 |**Sorting Edges**|$O(E \log E)$|
 |**DSU Operations**|$O(E \times \alpha(V))$ (Nearly constant)|

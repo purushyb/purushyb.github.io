@@ -146,7 +146,7 @@ fun longestCommonSubsequenceDp(
 
 ## Complexity Comparison
 
-| Operation | Naive Implementation | With Optimizations |
+| Algorithm | Recursive (Naive) | Dynamic Programming |
 | --- | --- | --- |
 |**Fibonacci**|_$O(2^n)$_|$O(n)$|
 |**Knapsack**|_O(N)_|$O(M \times N)$|
