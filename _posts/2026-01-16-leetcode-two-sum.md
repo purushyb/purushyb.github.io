@@ -96,3 +96,7 @@ fun main() {
 | --- | --- | --- |
 |**Brute Force**| $O(n^2)$| $O(1)$ |
 |**HashMap**| $O(n)$ (Nearly constant)| $O(n)$ |
+
+## Source Code
+> 🚀 **Code:** All the code for this tutorial is available in my [DSA-Kotlin Repository](https://github.com/purushyb/dsa-kotlin/blob/main/src/LeetCode_1_TwoSum_Solution.kt.kt).
+{: .prompt-tip }
