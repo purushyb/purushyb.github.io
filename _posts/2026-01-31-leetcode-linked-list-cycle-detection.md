@@ -3,7 +3,7 @@ title: "LeetCode 141: Linked List Cycle"
 date: 2026-01-21
 description: "Solving LeetCode's Linked List Cycle problem in Kotlin, using the fast and slow pointer approach to efficiently detect cycles."
 categories: [LeetCode, Linked List Cycle Detection]
-tags: [linked lists, cycle-detection, two-pointers, algorithm]
+tags: [linked-list, cycle-detection, two-pointers, algorithm]
 math: false
 ---
 
