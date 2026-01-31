@@ -2,7 +2,7 @@
 title: "LeetCode 133: Clone Graph"
 date: 2026-01-20
 description: "A step-by-step guide to deep copying a graph using Breadth-First Search (BFS) and HashMaps in Kotlin."
-categories: [LeetCode, Graphs]
+categories: [LeetCode, Clone Graphs]
 tags: [leetcode, graphs, bfs, hashmap, kotlin, medium]
 math: true
 ---
