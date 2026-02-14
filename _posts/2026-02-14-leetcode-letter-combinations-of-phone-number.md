@@ -1,6 +1,6 @@
 ---
 
-title: "Letter Combinations of Phone Numbers (Kotlin)"
+title: "LeetCode 17: Letter Combinations of Phone Numbers"
 date: 2026-02-14
 description: "Letter Combinations of Phone Numbers, in Kotlin. We’ll explore two approaches: a straightforward iterative solution and a more advanced Breadth-First Search (BFS) style approach."
 categories: [LeetCode, String Manipulation, Graph Algorithms]

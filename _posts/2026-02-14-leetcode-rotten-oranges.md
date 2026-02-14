@@ -3,7 +3,7 @@ title: "LeetCode 994: Rotting Oranges"
 date: 2026-02-14
 description: "Solving LeetCode's Rotting Oranges problem in Kotlin, using Breadth-First Search (BFS) to efficiently simulate the rotting of oranges and determine the minimum time required."
 categories: [LeetCode, Breadth-First Search, Linked Lists]
-tags: bfs, oranges, rotting, graph, algorithm
+tags: [bfs, oranges, rotting, graph, algorithm]
 math: false
 ---
 

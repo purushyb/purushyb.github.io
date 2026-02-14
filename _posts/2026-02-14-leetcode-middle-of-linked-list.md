@@ -3,7 +3,7 @@ title: "LeetCode 876: Finding the Middle Node of a Linked List"
 date: 2026-02-14
 description: "Solving LeetCode's Middle Node problem in Kotlin, efficiently finding the middle node of a singly linked list without needing to know its length."
 categories: [LeetCode, Linked Lists]
-tags: linked-list, middle-node, algorithm, two-pointers
+tags: [linked-list, middle-node, algorithm, two-pointers]
 math: false
 ---
 
